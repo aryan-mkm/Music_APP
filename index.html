@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div class="main_wrapper">
+
+        <div class="song_img">
+            <img src="./template.jpg" alt="" class="music_img" id="song_img">
+
+            <p id="song_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, consectetur.
+            </p>
+            <div class="rating">
+                <ul class="star">
+                    <li><i class='bx bx-star'></i></li>
+                    <li><i class='bx bx-star'></i></li>
+                    <li><i class='bx bx-star'></i></li>
+                    <li><i class='bx bx-star'></i></li>
+                    <li><i class='bx bx-star'></i></li>
+                </ul>
+                <p id="song_rating">RATING: 3.5/5</p>
+            </div>
+
+        </div>
+        <div class="song_list">
+
+            <h2>Ablum</h2>
+            <h1 class="song_name_title" id="song_name_title">
+                tu mmera hai samam
+            </h1>
+
+            <input type="search" name="" id="" placeholder="Search...">
+
+            <div class="music_list" id="music_list">
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="bottom_bar">
+        <div class="music_control">
+                <input type="range" value="0" class="progress_bar" readonly id="progressSlider" min="0" max="100">
+
+
+            <div class="song_name">
+                <h4 id="song_name">tu mera hai sanam</h4>
+                <span>Album</span>
+            </div>
+
+            <ul class="controler">
+                <li>
+                    <i class='bx bx-refresh'></i>
+                </li>
+                <li>
+                    <i class='bx bx-skip-previous-circle' id="previousSong"></i>
+                </li>
+                <li>
+                    <i class='bx bx-play' id="mainPlayBtn"></i>
+                </li>
+                <li>
+                    <i class='bx bx-skip-next-circle' id="nextSong"></i>
+                </li>
+                <li>
+                    <i class='bx bx-skip-forward-circle'></i>
+                </li>
+                <li>
+                    <i class='bx bxs-playlist'></i>
+                </li>
+            </ul>
+
+            <div class="setting">
+                <div class="volume">
+                    <i class='bx bx-volume-full' id="volume"></i>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="./script.js" type="module"></script>
+
+</body>
+
+</html>
